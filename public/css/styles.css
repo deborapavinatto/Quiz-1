@@ -10,18 +10,16 @@ body, html {
 	height:100%;
 }
 
-
-.welcome-page {
+.quiz-page {
     width: 100%;
     height: 100vh;
-    background: url('../img/bemvindo.jpg');
+    background: url('../img/perguntas.jpg');
     background-size: cover;
     color: rgb(231, 231, 231);
     text-align: center;
-
 }
 
-.welcome-page header {
+.quiz-page header {
     width: 100%;
     height: 80px;
     display: flex;
@@ -63,8 +61,7 @@ body, html {
 	color: rgb(126, 126, 126);
 	border: 1px solid #CCC;
     border-radius: 4px;
-    margin-top: 10px;
- 
+    margin-top: 10px; 
 }
 
 .login-page input:focus { 
@@ -81,99 +78,16 @@ body, html {
     padding-left: 4px;
     padding-right: 4px;
     justify-content: center;
-    color: rgb(129, 129, 129);
-   
+    color: rgb(129, 129, 129);   
 }
 
-.welcome-page button {
+.quiz-page button {
     width: 75px;
     background: rgba(202, 202, 202, 0.822);
     align-items: center;
     padding-top: 2px;
-
-
 }
 
 .esconder {
     display: none;
 }
-
-
-
-/*
-.login { 
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -150px 0 0 -150px;
-	width:300px;
-	height:300px;
-}
-.login h1 { 
-    color: rgba(231, 231, 231, 0.548);
-    letter-spacing: 1px; 
-    text-align:center; 
-
-}
-.login input {
-    margin-bottom: 10px;
-}
-
-input { 
-
-	width: 100%; 
-	margin-bottom: 10px; 
-	background: rgba(226, 216, 205, 0.801);
-    border: 1px;
-	outline: none;
-	padding: 10px;
-	font-size: 13px;
-	color: rgb(126, 126, 126);
-	border: 1px solid #CCC;
-    border-radius: 4px;
-    margin-top: 10px;
-    font-family: 'Roboto Condensed';
-}
-button{
-   
-    background-color: rgba(239, 255, 9, 0.808) ;
-    border-radius: 4px !important;
-    font-family: 'Roboto Condensed';
-    text-align:center;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 4px;
-    padding-right: 4px;
-    justify-content: center;
-    color: rgb(129, 129, 129);
-   
-}
-input:focus { 
-    box-shadow: inset 0 -5px 45px rgba(182, 183, 190, 0.473), 0 1px 1px rgba(255,255,255,0.2);
-   
- }
-.esconder{
-    display: none;
-
- }
-.entrar2, .home2{
-    background-image: url('../img/bemvindo.jpg') !important;
-    position: absolute;
-    margin: 0;
-    width: 100%;
-    height: 100px;
-    background: rgba(255, 255, 255, 0.082);
-    color: rgb(231, 231, 231);
-    padding: 6px;
-    text-align: center;
-    font-family: 'Roboto Condensed';
-}
-
-.entrar2 button {
-    width: 75px;
-    background: rgba(202, 202, 202, 0.822);
-    align-items: center;
-    padding-top: 2px;
-    font-family: 'Roboto Condensed';
-
-}*/
